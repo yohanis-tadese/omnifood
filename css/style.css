@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* font-size: 10px; */
+  /* instaid of using in px use in percent means users browser font size */
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 200;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  color: #555;
+}
+/*************************/
+/* GENERAL REUSABLE COMPONENT */
+/*************************/
+.heading-primary {
+  font-size: 5.2rem;
+  color: #333;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  font-weight: 700;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2.2rem;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+  transition: background-color 0.6s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  color: white;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #d67124;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+  margin-right: 1.7rem;
+}
+
+/*************************/
+/* HEADER */
+/*************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 8.9rem;
+  padding: 0 3.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/* NAV BAR */
+.main-nav-list {
+  display: flex;
+  gap: 3.2rem;
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.nav-cta:link,
+.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.nav-cta:hover,
+.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/*************************/
+/* HERO SECTION */
+/*************************/
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 8rem 0 9.8rem 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.8rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.delivered-meal {
+  display: flex;
+  margin-top: 8rem;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.delivered-image {
+  display: flex;
+}
+
+.delivered-image img {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+  border-radius: 50%;
+}
+
+.delivered-image img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.delivered-text span {
+  color: #e67e22;
+  font-weight: 700;
+}
+
+/**************************/
+/* HOW IT WORKS SECTION */
+/**************************/
+
+.section-how {
+  padding: 9.6rem 0;
+  font-size: 2.4rem;
+}
+
+.section-how div {
+  padding: 100px;
+}
+
+.section-how div:nth-child(1) {
+  background-color: aqua;
+}
+
+.section-how div:nth-child(2) {
+  background-color: blue;
+}
+
+.section-how div:nth-child(3) {
+  background-color: violet;
+}
+
+.section-how div:nth-child(4) {
+  background-color: yellow;
+}
